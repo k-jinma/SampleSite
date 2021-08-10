@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #fff;
+}
+#page{
+    margin: 0 auto;
+    width: 800px;
+}
+main section{
+    width: 380px;
+}
+section:first-child{
+    float: left;
+}
+section:last-child{
+    float: right;
+}
+p, li{
+    font-size: small;
+}
+
+/* 見出し装飾（追加） */
+h2{
+    border-bottom: solid;
+    border-color:black;
+    border-bottom-width: 1px;
+
+    border-left: solid;
+    border-left-width: 5px;
+
+    padding-left: 10px;
+}
+
+p{
+    line-height: 1.7;
+}
+
+h2{
+    font-size: medium;
+}
+main ul{
+    list-style-image: url(images/marker-gray.png);
+}
+
+footer{
+    clear: both;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+a:link{
+    color: #36c;
+}
+a:visited{
+    color: #609;
+}
+a:hover{
+    color: #666;
+}
+img{
+    border: 0;
+}
+
+section, article, aside, nav, header, main, footer {
+    display: block;
+}
+
+h1{
+    float: left;
+    margin: 10px 0;
+}
+
+header > ul li {
+    display: block;
+    float: right;
+    margin: 30px 0 0 20px;
+    padding-left: 10px;
+    background: url(images/marker-blue.png) no-repeat left;
+}
+
+nav{
+    clear: both;
+    margin-bottom: 8px;
+}
+
+nav ul, nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav a , nav li{
+    display: block;
+}
+
+nav ul{
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+    width: 131px;
+    border-right: 1px solid #ccc;
+}
+
+nav li:nth-child(6){
+    width: 136px;
+    border-right: none;
+}
+
+nav a{
+    padding: 14px 0;
+    border-left: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.0;
+    font-size: small;
+    font-weight: bold;
+}
+
+nav a:link, nav a:visited{
+    color: #36c;
+    background: url(images/li-bg.png) repeat-x bottom;
+}
+nav a:hover{
+    color: #666;
+    background: url(images/li-bg-hover.png) repeat-x bottom;
+}
